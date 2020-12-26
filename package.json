@@ -1,0 +1,26 @@
+{
+  "name": "how-old-is-it",
+  "version": "1.0.0",
+  "description": "How old is this repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alireza-mh/how-old-is-it.git"
+  },
+  "keywords": [
+    "repo age"
+  ],
+  "author": "Alireza Mahmoodi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alireza-mh/how-old-is-it/issues"
+  },
+  "homepage": "https://github.com/alireza-mh/how-old-is-it#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.16",
+    "typescript": "^4.1.3"
+  }
+}
