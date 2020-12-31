@@ -23,14 +23,14 @@ execute("git log --reverse", (output) => {
   if (diffYears && diffMonths) {
     message += " and ";
   }
-  if (diffMonths) {
-    message += `${diffMonths} month${diffMonths > 1 ? "s" : ""}`;
+  if (diffMonths % 12) {
+    message += `${diffMonths % 12} month${diffMonths % 12 > 1 ? "s" : ""}`;
   }
   if (diffMonths && diffDays) {
     message += " and ";
   }
-  if (diffDays) {
-    message += `${diffDays} day${diffDays > 1 ? "s" : ""}`;
+  if (diffDays % 30) {
+    message += `${diffDays % 30} day${diffDays % 30 > 1 ? "s" : ""}`;
   }
   if (diffDays || diffMonths || diffYears) {
     message += " ago ";
