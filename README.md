@@ -10,3 +10,6 @@ TODO:
 2- How many people worked on the project?
 
 3- Sort collaborators by commit or lines of code? (not good metric but it's for fun only)
+
+Solution for 1:
+using `git rev-list --count <revision>` command. 
