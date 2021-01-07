@@ -11,5 +11,7 @@ TODO:
 
 3- Sort collaborators by commit or lines of code? (not good metric but it's for fun only)
 
+4- summary of all these meta data on terminal 
+
 Solution for 1:
 using `git rev-list --count <revision>` command. 
