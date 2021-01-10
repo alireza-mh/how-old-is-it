@@ -5,7 +5,7 @@ You can easily use `git log --reverse` to get initial commit of the project. Her
 
 You can get commit count of specific branch with below command:
 
-sh```
+```sh
 hoit --commit-count <your-desire-branch>
 ```
 
